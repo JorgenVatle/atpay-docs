@@ -1,0 +1,11 @@
+{
+  "customInvoiceId": "some-unique-id",        // Unique order ID for tracking order
+  "value": 1337,                              // Value of order in cents. $1 = 100
+  "currency": "USD",                          // Currency of order. Only USD is supported at the moment.
+  "ipnUrl": "https://example.com/ipn",        // URL you want to receive your payment confirmation at.
+
+  "redirectUrls": {
+    "return": "https://example.com/cancel",   // URL to direct user to when 'cancel' button is clicked.
+    "success": "https://example.com/success"  // URL to direct user to when the payment is completed.
+  }
+}
