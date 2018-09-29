@@ -1,7 +1,7 @@
 ---
 home: true
 actionText: Get started
-actionLink: /guide/
+actionLink: /reference/
 features:
 - title: Easy to use
   details: 'Minimal work required to get up and running with our REST API.'
