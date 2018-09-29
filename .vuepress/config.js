@@ -2,7 +2,6 @@ module.exports = {
     title: 'ATPay Docs',
     description: 'Documentation & REST API reference.',
     themeConfig: {
-        sidebar: 'auto',
         nav: [
             {
                 text: 'Introduction',
@@ -17,5 +16,11 @@ module.exports = {
                 link: 'https://atpay.io'
             }
         ],
+        sidebar: {
+            '/reference/': [
+                '',
+                'order-create'
+            ]
+        },
     }
 };
