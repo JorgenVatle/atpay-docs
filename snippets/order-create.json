@@ -1,5 +1,5 @@
 {
-  "customInvoiceId": "some-unique-id",        // Unique order ID for tracking order
+  "customInvoiceId": "some-unique-id",        // Your internal order ID for tracking the order.
   "value": 1337,                              // Value of order in cents. $1 = 100
   "currency": "USD",                          // Currency of order. Only USD is supported at the moment.
   "ipnUrl": "https://example.com/ipn",        // URL you want to receive your payment confirmation at.
