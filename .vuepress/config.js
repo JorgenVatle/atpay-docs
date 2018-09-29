@@ -9,7 +9,7 @@ module.exports = {
             },
             {
                 text: 'Reference',
-                link: '/reference',
+                link: '/reference/',
             },
             {
                 text: 'Admin Dashboard',
