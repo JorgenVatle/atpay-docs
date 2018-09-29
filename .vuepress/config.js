@@ -1,6 +1,6 @@
 module.exports = {
-    title: 'ATPay',
-    description: 'Developer reference for ATPay.',
+    title: 'ATPay Docs',
+    description: 'Documentation & REST API reference.',
     themeConfig: {
         nav: [
             {
