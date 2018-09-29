@@ -19,7 +19,8 @@ module.exports = {
         sidebar: {
             '/reference/': [
                 '',
-                'order-create'
+                'order-create',
+                'ipns'
             ]
         },
     }
