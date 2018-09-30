@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/JorgenVatle/atpay-docs/issues"
   },
-  "homepage": "https://github.com/JorgenVatle/atpay-docs#readme"
+  "homepage": "https://github.com/JorgenVatle/atpay-docs#readme",
+  "dependencies": {
+    "vuepress": "^0.14.4"
+  }
 }
