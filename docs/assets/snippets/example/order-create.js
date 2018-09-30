@@ -3,7 +3,7 @@ const Request = require('request-promise').defaults({
 });
 
 async function createOrder(customInvoiceId) {
-    return await Request('http://localhost:8005/api/order/create', {
+    return await Request('https://atpay.io/api/order/create', {
         json: {
             customInvoiceId,
             value: 1337,
