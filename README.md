@@ -19,6 +19,10 @@ npm run
 - [Node.js](https://nodejs.org/) (8.12+)
 - [NPM](https://www.npmjs.com/get-npm)
 
-
 ## Credit
 We run on [VuePress](https://vuepress.vuejs.org/)!
+
+# License
+Code within this repository is licensed under the ISC license.
+
+Copyright (c) 2018, Jørgen Vatle.
