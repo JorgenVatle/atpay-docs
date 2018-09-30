@@ -1,0 +1,132 @@
+{
+  "order": {
+    "_id": "c4PKuMSwr5Jh2m57r",
+    "customInvoiceId": "2dwunfs884n",
+    "value": 634,
+    "currency": "USD",
+    "ipnUrl": "https://webhook.site/f40bbecd-349c-4288-8f2a-172344fa8473",
+    "redirectUrls": {
+      "success": "https://example.com/success",
+      "return": "https://example.com/cancel"
+    },
+    "merchantId": "9bGgyLuCMF6gLnPfF",
+    "status": "completed",
+    "paid": true,
+    "redirectUrlsClicked": {
+      "success": false,
+      "return": false
+    },
+    "createdAt": "2018-09-29T23:59:04.445Z",
+    "updatedAt": "2018-09-30T00:00:19.886Z",
+    "fulfilled": true,
+    "fulfilledAt": "2018-09-30T00:00:19.804Z"
+  },
+
+  "payment": {
+    "_id": "g7zyo6tS75ASbpnrP",
+    "orderId": "c4PKuMSwr5Jh2m57r",
+    "gateway": "paypal",
+    "createdAt": "2018-09-29T23:59:51.704Z",
+    "data": {
+      "id": "PAY-4F383686FP687773MLOYBDVA",
+      "intent": "sale",
+      "state": "approved",
+      "cart": "2RE31450362570930",
+      "payer": {
+        "payment_method": "paypal",
+        "status": "VERIFIED",
+        "payer_info": {
+          "email": "PayPal-buyer@ATPay.io",
+          "first_name": "test",
+          "last_name": "buyer",
+          "payer_id": "XT872DLWWXJCY",
+          "shipping_address": {
+            "recipient_name": "test buyer",
+            "line1": "1 Main St",
+            "city": "San Jose",
+            "state": "CA",
+            "postal_code": "95131",
+            "country_code": "US"
+          },
+          "country_code": "US"
+        }
+      },
+      "transactions": [
+        {
+          "amount": {
+            "total": "6.34",
+            "currency": "USD",
+            "details": {}
+          },
+          "payee": {
+            "merchant_id": "CKFRUVZ6RJP9S",
+            "email": "PayPal-facilitator@ATPay.io"
+          },
+          "invoice_number": "c4PKuMSwr5Jh2m57r",
+          "item_list": {
+            "shipping_address": {
+              "recipient_name": "test buyer",
+              "line1": "1 Main St",
+              "city": "San Jose",
+              "state": "CA",
+              "postal_code": "95131",
+              "country_code": "US"
+            }
+          },
+          "related_resources": [
+            {
+              "sale": {
+                "id": "40W60187LG9376201",
+                "state": "completed",
+                "amount": {
+                  "total": "6.34",
+                  "currency": "USD",
+                  "details": {
+                    "subtotal": "6.34"
+                  }
+                },
+                "payment_mode": "INSTANT_TRANSFER",
+                "protection_eligibility": "ELIGIBLE",
+                "protection_eligibility_type": "ITEM_NOT_RECEIVED_ELIGIBLE,UNAUTHORIZED_PAYMENT_ELIGIBLE",
+                "transaction_fee": {
+                  "value": "0.48",
+                  "currency": "USD"
+                },
+                "parent_payment": "PAY-4F383686FP687773MLOYBDVA",
+                "create_time": "2018-09-29T23:59:49Z",
+                "update_time": "2018-09-29T23:59:49Z",
+                "links": [
+                  {
+                    "href": "https://api.sandbox.paypal.com/v1/payments/sale/40W60187LG9376201",
+                    "rel": "self",
+                    "method": "GET"
+                  },
+                  {
+                    "href": "https://api.sandbox.paypal.com/v1/payments/sale/40W60187LG9376201/refund",
+                    "rel": "refund",
+                    "method": "POST"
+                  },
+                  {
+                    "href": "https://api.sandbox.paypal.com/v1/payments/payment/PAY-4F383686FP687773MLOYBDVA",
+                    "rel": "parent_payment",
+                    "method": "GET"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "create_time": "2018-09-29T23:59:50Z",
+      "links": [
+        {
+          "href": "https://api.sandbox.paypal.com/v1/payments/payment/PAY-4F383686FP687773MLOYBDVA",
+          "rel": "self",
+          "method": "GET"
+        }
+      ],
+      "httpStatusCode": 200
+    },
+    "updatedAt": "2018-09-29T23:59:51.704Z"
+  }
+}
