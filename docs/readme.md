@@ -1,7 +1,7 @@
 ---
 home: true
 actionText: Get started
-actionLink: /reference/
+actionLink: /rest/
 features:
 - title: Simple Checkout
   details: 'Our checkout process is minimalistic and straight to the point.'
