@@ -2,12 +2,12 @@
 Whenever a payment is confirmed on our end, we send a copy of the payment details object from the payment processor as
 well as a copy of the order object to the URL you specified in the `ipnUrl` field during order creation.
 
-## Example Payload 
-<<< snippets/payload/order-ipn.json
-
 ## Validating The IPN Authenticity
 All IPNs come with an `X-Authorization` header. This should match up with your API key. If it doesn't, simply discard
 the IPN as then it most likely doesn't originate from us.
+
+## Example Payload 
+<<< snippets/payload/order-ipn.json
 
 ## Order Status Updates
 Whenever the `status` of a given order changes, another IPN is sent to your `ipnUrl` with an updated `order` object.
