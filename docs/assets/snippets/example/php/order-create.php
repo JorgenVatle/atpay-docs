@@ -13,11 +13,11 @@ class ATPay {
         ]);
     }
 
-    public function createOrder(Order $order) {
+    public function createOrder(string $invoiceId, int $valueInCents) {
         $response = $this->client->request('POST', 'order/create', [
             'json' => [
-                'customInvoiceId' => $order->invoiceId,
-                'value' => $order->valueInCents,
+                'customInvoiceId' => $invoiceId,
+                'value' => $valueInCents,
                 'currency' => 'USD',
                 'ipnUrl' => 'https://api.my-app.com/ipn',
 
