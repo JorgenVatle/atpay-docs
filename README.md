@@ -14,4 +14,4 @@ footer: Copyright © ATPay 2018 | support@atpay.io
 ---
 
 ### Payment URI creation in Node.js:
-<<< snippets/example/order-create.js
+<<< assets/snippets/example/order-create.js

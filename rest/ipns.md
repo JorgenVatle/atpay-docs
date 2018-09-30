@@ -7,7 +7,7 @@ All IPNs come with an `X-Authorization` header. This should match up with your A
 the IPN as it most likely doesn't originate from us.
 
 ## Example Payload 
-<<< snippets/payload/order-ipn.json
+<<< assets/snippets/payload/order-ipn.json
 
 ## Order Status Updates
 Whenever the `status` of a given order changes, another IPN is sent to your `ipnUrl` with an updated `order` object.

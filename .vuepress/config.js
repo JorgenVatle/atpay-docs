@@ -9,7 +9,7 @@ module.exports = {
             },
             {
                 text: 'Reference',
-                link: '/reference/rest/',
+                link: '/rest/',
             },
             {
                 text: 'Admin Dashboard',
@@ -21,16 +21,16 @@ module.exports = {
                 title: 'REST Reference',
                 collapsable: false,
                 children: [
-                    '/reference/rest/',
-                    '/reference/rest/order-create',
-                    '/reference/rest/ipns',
+                    '/rest/',
+                    '/rest/order-create',
+                    '/rest/ipns',
                 ]
             },
             {
                 title: 'Code Samples',
                 collapsable: false,
                 children: [
-                    'reference/samples/node',
+                    '/samples/node',
                 ]
             }
         ],
