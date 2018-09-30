@@ -16,3 +16,6 @@ POST /order/create
 ```text
 https://atpay.io/checkout/xFHTaMviqyPwnrfZd/overview
 ```
+
+#### Error
+<<< docs/assets/snippets/request/order-create-error.json

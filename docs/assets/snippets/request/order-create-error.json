@@ -1,0 +1,41 @@
+{
+  "error": "validation-error",
+  "reason": "Internal server error",
+  "details": [
+    {
+      "name": "customInvoiceId",
+      "type": "required",
+      "message": "Custom invoice ID is required"
+    },
+    {
+      "name": "value",
+      "type": "required",
+      "message": "Value is required"
+    },
+    {
+      "name": "currency",
+      "type": "required",
+      "message": "Currency is required"
+    },
+    {
+      "name": "ipnUrl",
+      "type": "required",
+      "message": "Ipn url is required"
+    },
+    {
+      "name": "redirectUrls",
+      "type": "required",
+      "message": "Redirect urls is required"
+    },
+    {
+      "name": "redirectUrls.return",
+      "type": "required",
+      "message": "Return is required"
+    },
+    {
+      "name": "redirectUrls.success",
+      "type": "required",
+      "message": "Success is required"
+    }
+  ]
+}
