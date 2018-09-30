@@ -3,7 +3,7 @@
 ## Example Request
 
 #### Endpoint
-```powershell
+```http
 POST /order/create
 ```
 
