@@ -5,8 +5,8 @@
   "description": "Documentation for ATPay",
   "main": "index.js",
   "scripts": {
-    "start": "vuepress dev",
-    "build": "vuepress build .",
+    "start": "vuepress dev docs",
+    "build": "vuepress build docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
