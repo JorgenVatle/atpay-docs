@@ -19,5 +19,8 @@ Likely the easier option if you don't have a package manager set up for your pro
 <<< docs/assets/snippets/example/php/order-create-curl.php
 
 ## Guzzle
+A more robust option for applications with Guzzle or a package manager already installed.
+
+[Guzzle Documentation](http://docs.guzzlephp.org/en/stable/index.html)
 ### Create Order
 <<< docs/assets/snippets/example/php/order-create.php
