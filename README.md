@@ -23,6 +23,6 @@ npm run
 We run on [VuePress](https://vuepress.vuejs.org/)!
 
 # License
-Code within this repository is licensed under the ISC license.
+This repository is licensed under the ISC license.
 
 Copyright (c) 2018, Jørgen Vatle.
