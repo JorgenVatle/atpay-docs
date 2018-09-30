@@ -4,7 +4,7 @@ well as a copy of the order object to the URL you specified in the `ipnUrl` fiel
 
 ## Validating The IPN Authenticity
 All IPNs come with an `X-Authorization` header. This should match up with your API key. If it doesn't, simply discard
-the IPN as then it most likely doesn't originate from us.
+the IPN as it most likely doesn't originate from us.
 
 ## Example Payload 
 <<< snippets/payload/order-ipn.json
