@@ -11,10 +11,13 @@ If you're on an older version, remove the type definitions from the below functi
 If you're below PHP v5.4, replace the `[]` array references with `array()` 
 :::
 
+## cURL
+Likely the easier option if you don't have a package manager set up for your project.
+
+[PHP cURL Reference](http://php.net/manual/ro/book.curl.php)
+### Create Order
+<<< docs/assets/snippets/example/php/order-create-curl.php
+
 ## Guzzle
 ### Create Order
 <<< docs/assets/snippets/example/php/order-create.php
-
-## cURL
-### Create Order
-<<< docs/assets/snippets/example/php/order-create-curl.php
