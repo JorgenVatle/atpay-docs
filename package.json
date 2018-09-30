@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "description": "Documentation for ATPay",
-  "main": "index.js",
   "scripts": {
     "start": "vuepress dev docs",
     "build": "vuepress build docs",
