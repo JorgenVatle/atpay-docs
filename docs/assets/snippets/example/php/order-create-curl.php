@@ -1,7 +1,5 @@
 <?php
 
-// PHP Version Requirement: 7.0+
-
 function createOrder(string $orderId, int $valueInCents) {
     $apiKey = 'my-secret-api-key'; // Your API key goes here.
     $curl = curl_init();
