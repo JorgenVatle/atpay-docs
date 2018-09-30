@@ -7,12 +7,12 @@ function createOrder(string $orderId, int $valueInCents) {
     $curl = curl_init();
 
     curl_setopt_array($curl, [
-        CURLOPT_URL => "https://atpay.io/api/order/create",
+        CURLOPT_URL => 'https://atpay.io/api/order/create',
         CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-        CURLOPT_CUSTOMREQUEST => "POST",
+        CURLOPT_CUSTOMREQUEST => 'POST',
         CURLOPT_HTTPHEADER => [
-            "Cache-Control: no-cache",
-            "Content-Type: application/json",
+            'Cache-Control: no-cache',
+            'Content-Type: application/json',
             "X-Authorization: $apiKey"
         ],
         CURLOPT_POSTFIELDS => json_encode([
