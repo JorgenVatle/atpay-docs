@@ -25,6 +25,13 @@ module.exports = {
                     '/reference/rest/order-create',
                     '/reference/rest/ipns',
                 ]
+            },
+            {
+                title: 'Code Samples',
+                collapsable: false,
+                children: [
+                    'reference/samples/node',
+                ]
             }
         ],
     }
