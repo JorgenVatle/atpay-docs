@@ -1,4 +1,4 @@
 # PHP
 
 ## Create Order
-<<< docs/assets/snippets/example/order-create.php
+<<< docs/assets/snippets/example/php/order-create.php
