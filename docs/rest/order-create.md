@@ -6,7 +6,7 @@ POST /order/create
 ```
 
 ## Request
-<<< assets/snippets/request/order-create.json
+<<< docs/assets/snippets/request/order-create.json
 
 ## Response
 ```txt
