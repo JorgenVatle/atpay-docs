@@ -9,19 +9,23 @@ module.exports = {
             },
             {
                 text: 'Reference',
-                link: '/reference/',
+                link: '/reference/rest/',
             },
             {
                 text: 'Admin Dashboard',
                 link: 'https://atpay.io'
             }
         ],
-        sidebar: {
-            '/reference/': [
-                '',
-                'order-create',
-                'ipns'
-            ]
-        },
+        sidebar: [
+            {
+                title: 'REST Reference',
+                collapsable: false,
+                children: [
+                    '/reference/rest/',
+                    '/reference/rest/order-create',
+                    '/reference/rest/ipns',
+                ]
+            }
+        ],
     }
 };
