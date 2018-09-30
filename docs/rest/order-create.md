@@ -1,14 +1,18 @@
 # Create Order
 
-## Endpoint
+## Example Request
+
+#### Endpoint
 ```powershell
 POST /order/create
 ```
 
-## Request
+#### Body
 <<< docs/assets/snippets/request/order-create.json
 
-## Response
-```txt
+## Example Response
+
+#### Success
+```text
 https://atpay.io/checkout/xFHTaMviqyPwnrfZd/overview
 ```
