@@ -1,7 +1,7 @@
 # Java
 
-## Import Depedencies
-### Maven
+## Setup
+#### Maven
 Add the repository
 ```xml
 <repositories>
@@ -11,7 +11,7 @@ Add the repository
     </repository>
 </repositories>
 ```
-Add the dependency
+Add the ATPay Java Client to your dependencies.
 ```xml
 <dependency>
     <groupId>com.github.mcjp78</groupId>
@@ -19,8 +19,8 @@ Add the dependency
     <version>1.0</version>
 </dependency>	
 ```
-### Gradle
-Add the jitpack repository service.
+#### Gradle
+Add the JitPack repository service.
 ```gradle
 allprojects {
     repositories {
