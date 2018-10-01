@@ -31,7 +31,8 @@ module.exports = {
                 collapsable: false,
                 children: [
                     '/samples/node',
-                    '/samples/php'
+                    '/samples/php',
+                    '/samples/java'
                 ]
             }
         ],
