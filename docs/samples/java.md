@@ -3,7 +3,7 @@
 ## Import Depedencies
 ### Maven
 Add the repository
-```   
+```xml
 <repositories>
     <repository>
         <id>jitpack.io</id>
@@ -12,7 +12,7 @@ Add the repository
 </repositories>
 ```
 Add the dependency
-```
+```xml
 <dependency>
     <groupId>com.github.mcjp78</groupId>
     <artifactId>ATPay-Java-Client</artifactId>
@@ -21,7 +21,7 @@ Add the dependency
 ```
 ### Gradle
 Add the jitpack repository service.
-```
+```gradle
 allprojects {
     repositories {
         maven { url 'https://jitpack.io' }
