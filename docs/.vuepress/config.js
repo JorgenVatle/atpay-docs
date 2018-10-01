@@ -32,7 +32,7 @@ module.exports = {
                 children: [
                     '/samples/node',
                     '/samples/php',
-                    '/samples/java
+                    '/samples/java'
                 ]
             }
         ],
