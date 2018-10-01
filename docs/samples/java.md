@@ -28,9 +28,11 @@ allprojects {
     }
 }
 ```
-Add the dependency
 
-`implementation 'com.github.mcjp78:ATPay-Java-Client:1.0'`
+Add the dependency
+```gradle
+implementation 'com.github.mcjp78:ATPay-Java-Client:1.0'
+```
 
 ## Create Order
 <<< docs/assets/snippets/example/java/order-create.java
