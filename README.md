@@ -22,7 +22,7 @@ npm run
 - [NPM](https://www.npmjs.com/get-npm)
 
 ## Credit
-We run on [VuePress](https://vuepress.vuejs.org/)!
+We run on [VuePress](https://vuepress.vuejs.org/) and [Netlify](https://www.netlify.com/)!
 
 # License
 This repository is licensed under the ISC license.
