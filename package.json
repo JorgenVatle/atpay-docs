@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/JorgenVatle/atpay-docs#readme",
   "dependencies": {
-    "vuepress": "^0.14.4"
+    "vuepress": "^1.9.7"
   }
 }
